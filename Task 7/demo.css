@@ -1,0 +1,60 @@
+* {
+  padding: 10px;
+}
+body {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+  padding: 0px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.main {
+  border: 1px lightgrey solid;
+}
+.sub1 {
+  padding: 0px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.req {
+  color: red;
+}
+.textbox {
+  height: 10px;
+}
+.normal {
+  font-weight: normal;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+.odd_row,
+.even_row {
+  width: 17%;
+  text-align: center;
+}
+.even {
+  background-color: lightgrey;
+  color: #222;
+}
+
+.form-submit-button {
+  background: #77b5e7;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
+
+.form-submit-button:hover {
+  background: #016abc;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
